@@ -43,7 +43,7 @@ jobs:
 
     steps:
       - name: Checkout code 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
 
       - name: Cache dependencies 🔧
@@ -76,7 +76,7 @@ jobs:
 
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
@@ -89,7 +89,7 @@ jobs:
           coverage: none
           tools: composer:v2
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
 
       - name: Install Dependencies
