@@ -23,7 +23,7 @@
     "codeflask": "^1.4.0",
     "cropperjs": "^1.5.11",
     "cross-env": "^7.0.0",
-    "dropzone": "^5.9.2",
+    "dropzone": "^6.3.5",
     "flatpickr": "^4.6.3",
     "frappe-charts": "^1.6.1",
     "inputmask": "^5.0.6",
